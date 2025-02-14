@@ -1,1 +1,10 @@
+import telebot
 
+Token = "8181788051:AAECKishNyamOcrRRegAx50Y8veIcZmp4lM"
+
+bot = telebot.TeleBot(Token)
+@bot.message_handler(['code_ddos'])
+def start(message):
+bot.reply_to(message,"welcome to death code of trust vip we watching you your phoen optimus det's lekaed regularly")
+
+bot.polling
